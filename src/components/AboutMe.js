@@ -7,7 +7,10 @@ function AboutMe() {
       <p>
         Soy Ingeniero Civil en Computación con experiencia en desarrollo de sistemas, análisis de datos y optimización de procesos. Me especializo en programación en Python, Java, C, además de SQL, PostgreSQL y frameworks como Flask, Django y React.
 
+      </p>
+      <p>
         Durante mi experiencia profesional he trabajado en proyectos que combinan automatización de procesos, modelos de machine learning y desarrollo web.
+     
       </p>
       
     </section>
