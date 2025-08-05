@@ -3,20 +3,15 @@ import React from 'react';
 function Projects() {
   const projectList = [
     {
-      name: 'Portfolio Website',
-      description: 'soon.',
-      link: 'https://google.com',
-    },
-    {
-      name: 'Task Tracker App',
-      description: 'soon',
-      link: 'https://google.com',
+      name: 'Linkedin',
+      description: '',
+      link: 'https://linkedin.com/in/achavez-v',
     },
   ];
 
   return (
     <section>
-      <h2>Projects</h2>
+      <h2>Contactame</h2>
       <ul>
         {projectList.map((project, index) => (
           <li key={index}>

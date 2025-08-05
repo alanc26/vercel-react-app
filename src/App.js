@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>👋 Hello, I'm Alan</h1>
+        <h1>👋 Hola, soy Alan.</h1>
         <p>Full-stack Developer • React Enthusiast • Tech Explorer</p>
       </header>
       <main>
