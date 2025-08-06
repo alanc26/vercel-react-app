@@ -11,7 +11,7 @@ function Projects() {
 
   return (
     <section>
-      <h2>Contactame</h2>
+      <h2>Contáctame</h2>
       <ul>
         {projectList.map((project, index) => (
           <li key={index}>
