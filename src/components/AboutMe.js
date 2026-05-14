@@ -1,18 +1,18 @@
 import React from 'react';
 
-function AboutMe() {
-  return (
-    <section>
-      <h2>Sobre mi</h2>
-      <p>
-        Soy Ingeniero Civil en Computación con experiencia en desarrollo de sistemas, análisis de datos y optimización de procesos. Me especializo en programación en Python, Java, C, además de SQL, PostgreSQL y frameworks como Flask, Django y React.
+const skills = ['Python', 'Java', 'C', 'PySpark', 'React', 'Flask', 'Django', 'SQL', 'PostgreSQL', 'Machine Learning'];
 
-      </p>
-      <p>
-        Durante mi experiencia profesional he trabajado en proyectos que combinan automatización de procesos, modelos de machine learning y desarrollo web.
-     
-      </p>
-      
+function AboutMe({ t }) {
+  return (
+    <section className="card">
+      <h2>{t.aboutTitle}</h2>
+      <p>{t.aboutP1}</p>
+      <p>{t.aboutP2}</p>
+      <div className="skills">
+        {skills.map((s) => (
+          <span key={s} className="skill-tag">{s}</span>
+        ))}
+      </div>
     </section>
   );
 }
